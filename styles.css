@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+:root {
+  --Soft-Blue: hsl(215, 51%, 70%);
+  --Cyan: hsl(178, 100%, 50%);
+  --Very-dark-blue-1: hsl(217, 54%, 11%);
+  --Very-dark-blue-2: hsl(216, 50%, 16%);
+  --Very-dark-blue-3: hsl(215, 32%, 27%);
+  --White: hsl(0, 0%, 100%);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+  background-color: var(--Very-dark-blue-1);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  max-width: 350px;
+  min-height: 580px;
+  background-color: var(--Very-dark-blue-2);
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.7rem;
+}
+
+.main-image {
+  width: 86%;
+  height: 280px;
+  align-self: center;
+  margin-top: 1.4rem;
+  border-radius: 0.5rem;
+}
+
+.text-container {
+  margin: 0 1.6rem 0 1.6rem;
+}
+
+h1 {
+  font-size: 1.4rem;
+  color: var(--White);
+  margin-top: 1.5rem;
+}
+
+.description {
+  color: var(--Soft-Blue);
+  line-height: 1.4rem;
+  font-size: 1.1rem;
+}
+
+.price-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.6rem;
+}
+
+.icon {
+  padding: 0 0.3rem 0 0;
+  margin-bottom: -0.1rem;
+}
+
+.price {
+  color: var(--Cyan);
+  font-weight: 600;
+}
+
+.time {
+  color: var(--Soft-Blue);
+}
+
+hr {
+  border: none;
+  border-top: 1Q solid rgba(85, 84, 84, 0.8);
+  margin: 1.6rem 0;
+}
+
+.author-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.avatar-img {
+  width: 2rem;
+  height: 2rem;
+  border: 1.9px solid white;
+  border-radius: 50%;
+}
+
+.author-text {
+  color: var(--Soft-Blue);
+}
+
+.attribution {
+  color: var(--White);
+  position: absolute;
+  bottom: 0;
+  font-size: 0.97rem;
+  line-height: 0.8rem;
+}
+
+.attribution p a {
+  color: var(--Soft-Blue);
+}
+
+.attribution p a:hover {
+    opacity: 0.4;
+}
+
+@media (max-height: 720px) {
+    .attribution {
+        display: none;
+    }
+}
+
+@media (max-width: 240px) {
+    .attribution {
+        display: none;
+    }
+}
