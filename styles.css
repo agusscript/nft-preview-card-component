@@ -32,10 +32,10 @@ body {
 }
 
 .img-container {
-  position: relative; 
+  position: relative;
   width: 86%;
+  margin: 0 auto;
   margin-top: 1.4rem;
-  margin-left: 1.55rem;
 }
 
 .main-image {
@@ -141,7 +141,7 @@ hr {
 }
 
 .author-text a:hover {
-  color: var(--Cyan)
+  color: var(--Cyan);
 }
 
 .attribution {
@@ -157,17 +157,39 @@ hr {
 }
 
 .attribution p a:hover {
-    opacity: 0.4;
+  opacity: 0.4;
 }
 
 @media (max-height: 720px) {
-    .attribution {
-        display: none;
-    }
+  .attribution {
+    display: none;
+  }
 }
 
 @media (max-width: 240px) {
-    .attribution {
-        display: none;
-    }
+  .attribution {
+    display: none;
+  }
+}
+
+@media (max-height: 590px) {
+  body {
+    margin: 5rem 0;
+  }
+}
+
+@media (max-width: 400px) {
+  body {
+    margin: 4rem 1rem;
+  }
+
+  .author-container {
+    margin-bottom: 1.4rem;
+  }
+
+  .img-container {
+    width: 86%;
+    margin: 0 auto;
+    margin-top: 1.4rem;
+  }
 }
