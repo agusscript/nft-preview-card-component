@@ -39,6 +39,15 @@ Users should be able to:
 
 ### Built with
 
+<p>
+ <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML">
+  <img src="https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" height="30" alt="HTML5"/>
+ </a>
+ <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">
+  <img src="https://img.shields.io/badge/-CSS3-blue?style=flat-square&logo=CSS3&logoColor=white" height="30" alt="CSS3"/>
+ </a>
+</p>
+
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
@@ -48,4 +57,5 @@ Users should be able to:
 
 - Linkedin - [Agustin Emanuel Sanchez](https://www.linkedin.com/in/agustin-emanuel-sanchez-4b2807240/)
 - Frontend Mentor - [@agusscript](https://www.frontendmentor.io/profile/agusscript)
+- CodePen - [Agustin Sanchez](https://codepen.io/agusscript)
 - Twitter - [@agus_script](https://twitter.com/agus_script)
